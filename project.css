@@ -1,0 +1,23 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background-image: linear-gradient(to right, pink , #d25cbb) ;
+}
+.table
+{
+    color: lightcoral;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+tr:hover {background-color: coral;}
+tr:nth-child(even) {background-color: pink;}
+th {
+    background-color: lightblue;
+    color: black;
+  }
